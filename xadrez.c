@@ -36,7 +36,21 @@ int main() {
 
     printf("\n");
 
+     // -------------------------------
+    // Movimento da Rainha (8 casas para a esquerda)
+    // Usando estrutura de repetição: DO-WHILE
+    // -------------------------------
+    int movimentoRainha = 8;
+    int contadorRainha = 1;
 
+    printf("Movimento da Rainha (8 casas para a esquerda):\n");
+
+    do {
+        // A rainha pode se mover em todas as direções
+        // Aqui simulamos o movimento apenas na direção "Esquerda"
+        printf("Esquerda\n");
+        contadorRainha++;
+    } while (contadorRainha <= movimentoRainha);
 
     return 0;
 }
