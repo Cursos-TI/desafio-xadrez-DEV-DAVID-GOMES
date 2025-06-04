@@ -18,7 +18,23 @@ int main() {
 
     printf("\n");
 
+     // -------------------------------
+    // Movimento do Bispo (5 casas na diagonal: cima e direita)
+    // Usando estrutura de repetição: WHILE
+    // -------------------------------
+    int movimentoBispo = 5;
+    int contadorBispo = 1;
 
+    printf("Movimento do Bispo (5 casas na diagonal para cima e à direita):\n");
+
+    while (contadorBispo <= movimentoBispo) {
+        // O bispo se move na diagonal
+        // Neste caso, estamos simulando a diagonal "Cima Direita"
+        printf("Cima Direita\n");
+        contadorBispo++;
+    }
+
+    printf("\n");
 
 
 
