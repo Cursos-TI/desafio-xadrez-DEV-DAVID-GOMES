@@ -26,5 +26,17 @@ int main()
         printf("Cima Direita\n");
         moverBispoRecursivo(casas - 1); // chamada recursiva
     }
+
+    // ------------------------------------------
+    // Função recursiva para movimentar a Rainha
+    // Movimento: esquerda
+    // ------------------------------------------
+    void moverRainha(int casas)
+    {
+        if (casas == 0)
+            return;
+        printf("Esquerda\n");
+        moverRainha(casas - 1); // chamada recursiva
+    }
     return 0;
 }
