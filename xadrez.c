@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
-
-    // ------------------------------------------
+     // ------------------------------------------
     // Função recursiva para movimentar a Torre
     // Movimento: direita
     // ------------------------------------------
@@ -38,5 +35,10 @@ int main()
         printf("Esquerda\n");
         moverRainha(casas - 1); // chamada recursiva
     }
+
+int main()
+{
+
+   
     return 0;
 }
