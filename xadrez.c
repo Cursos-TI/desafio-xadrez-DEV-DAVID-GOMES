@@ -38,7 +38,13 @@
 
 int main()
 {
-
+     // -------------------------------
+    // Movimento da Torre com recursividade
+    // -------------------------------
+    int movimentoTorre = 5;
+    printf("Movimento da Torre (5 casas para a direita):\n");
+    moverTorre(movimentoTorre);
+    printf("\n");
    
     return 0;
 }
