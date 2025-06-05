@@ -14,5 +14,17 @@ int main()
         printf("Direita\n");
         moverTorre(casas - 1); // chamada recursiva
     }
+
+    // ------------------------------------------
+    // Função recursiva para movimentar o Bispo
+    // Movimento: diagonal cima e direita
+    // ------------------------------------------
+    void moverBispoRecursivo(int casas)
+    {
+        if (casas == 0)
+            return;
+        printf("Cima Direita\n");
+        moverBispoRecursivo(casas - 1); // chamada recursiva
+    }
     return 0;
 }
