@@ -53,5 +53,12 @@ int main()
     printf("Movimento do Bispo (5 casas na diagonal para cima e à direita - recursivo):\n");
     moverBispoRecursivo(movimentoBispo);
     printf("\n");
+
+     // -------------------------------
+    // Movimento do Bispo com loops aninhados
+    // Loop externo: movimento vertical
+    // Loop interno: movimento horizontal
+    // -------------------------------
+    printf("Movimento do Bispo (5 casas com loops aninhados - diagonal cima e direita):\n");
     return 0;
 }
