@@ -45,6 +45,13 @@ int main()
     printf("Movimento da Torre (5 casas para a direita):\n");
     moverTorre(movimentoTorre);
     printf("\n");
-   
+    
+     // -------------------------------
+    // Movimento do Bispo com recursividade
+    // -------------------------------
+    int movimentoBispo = 5;
+    printf("Movimento do Bispo (5 casas na diagonal para cima e à direita - recursivo):\n");
+    moverBispoRecursivo(movimentoBispo);
+    printf("\n");
     return 0;
 }
