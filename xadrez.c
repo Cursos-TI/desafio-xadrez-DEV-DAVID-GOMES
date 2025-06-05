@@ -80,5 +80,35 @@ int main()
     printf("Movimento da Rainha (8 casas para a esquerda):\n");
     moverRainha(movimentoRainha);
     printf("\n");
+
+      // -------------------------------
+    // Movimento do Cavalo com loops complexos
+    // Movimento em L: duas casas para cima e uma para a direita
+    // Usando FOR + WHILE e controle com break/continue
+    // -------------------------------
+    printf("Movimento do Cavalo (movimento em L: 2 casas para cima e 1 casa para a direita):\n");
+
+    int movimentosCavalo = 1; // número de vezes que o cavalo se moverá
+
+    for (int i = 0; i < movimentosCavalo; i++) {
+        int passosVerticais = 0;
+
+        while (passosVerticais < 2) {
+            if (passosVerticais == 1) {
+                // Demonstração do uso do continue: ignora uma instrução fictícia
+                passosVerticais++;
+                continue;
+            }
+            printf("Cima\n");
+            passosVerticais++;
+        }
+
+        for (int j = 0; j < 2; j++) {
+            if (j == 0) {
+                printf("Direita\n");
+                break; // após um passo à direita, sai do loop
+            }
+        }
+    }
     return 0;
 }
