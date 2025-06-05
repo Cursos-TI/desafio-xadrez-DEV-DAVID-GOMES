@@ -60,5 +60,15 @@ int main()
     // Loop interno: movimento horizontal
     // -------------------------------
     printf("Movimento do Bispo (5 casas com loops aninhados - diagonal cima e direita):\n");
+
+    
+    for (int i = 0; i < movimentoBispo; i++) {
+        for (int j = 0; j < 1; j++) { // movimento horizontal (direita)
+            printf("Direita ");
+        }
+        printf("Cima\n"); // movimento vertical (cima)
+    }
+
+    printf("\n");
     return 0;
 }
