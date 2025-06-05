@@ -70,5 +70,15 @@ int main()
     }
 
     printf("\n");
+
+
+    
+    // -------------------------------
+    // Movimento da Rainha com recursividade
+    // -------------------------------
+    int movimentoRainha = 8;
+    printf("Movimento da Rainha (8 casas para a esquerda):\n");
+    moverRainha(movimentoRainha);
+    printf("\n");
     return 0;
 }
